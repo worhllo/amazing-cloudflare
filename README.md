@@ -1,5 +1,5 @@
 # amazing-cloudflare
-⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。
+⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。基于[Awesome-Cloudflare ](https://github.com/zhuima/awesome-cloudflare)修改补充。
 <div align="center">
 
 </div>
@@ -17,15 +17,6 @@
 - 足够简单便捷
 
 欢迎提 pr 和 issues 更新。 部署或操作过程中有任何问题可以提issue或者私信咨询～
-
-## 在线版本
-
-[Awesome Cloudflare 在线导航](https://cloudflare.chuhai.tools)
-
-
-## 群组
-
-[一个群](https://t.me/indiehackertools)
 
 
 ## Contents
