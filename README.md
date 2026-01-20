@@ -1,7 +1,7 @@
 # amazing-cloudflare
 ⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。
 <div align="center">
-![awesome-cloudflare](./docs/awesome-cloudflare.svg)
+![amazing-cloudflare](./docs/amazing-cloudflare.svg
 
 </div>
 
