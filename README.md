@@ -71,8 +71,8 @@
 | [AuthInbox](https://github.com/TooonyChen/AuthInbox) | 一个自建的开源多邮箱验证码的接码平台，基于 Cloudflare 的免费服务。它可以自动处理收到的邮件，提取验证码或链接，并将其存储在数据库中。管理员可以通过一个用户友好的网页界面轻松查看提取的信息。AuthInbox 还支持通过 Bark 进行实时通知，使其成为一个全面且省心的邮件认证管理解决方案。|  | 维护中 |
 | [moemail](https://github.com/beilunyang/moemail) | MoeMail - 基于 NextJS + Cloudflare 技术栈构建的可爱临时邮箱服务 。| <https://moemail.app> | 维护中 |
 | [zmail](https://github.com/zaunist/zmail) | Z-Mail - 基于 CloudFlare 的 pages、worker 以及 D1 SQL 搭建的极简临时邮箱服务，支持接收附件。| <https://mail.mdzz.uk/> | 维护中 |
-| [cloud-mail](https://github.com/LaziestRen/cloud-mail) | 用Vue3开发的响应式简约邮箱服务，支持邮件发送附件收发，可以部署到Cloudflare云平台。| <https://skymail.ink> | 维护中 |
-
+| [cloud-mail](https://github.com/PennyJoly/FreeTempMail) | 用Vue3开发的响应式简约邮箱服务，支持邮件发送附件收发，可以部署到Cloudflare云平台。| <https://skymail.ink> | 维护中 |
+| [FreeTempMail](https://github.com/LaziestRen/cloud-mail) | FreeTempMail 是一项免费的临时电子邮件服务，允许您创建一次性电子邮件地址以保护您的隐私。无需注册，即时生成，自动接收邮件。| <https://mail.aitre.cc> | 维护中 |
 
 ## 博客
 
@@ -130,6 +130,15 @@
 | --- | --- | --- |--- |
 | [Cloudflared-web](https://github.com/WisdomSky/Cloudflared-web) |Cloudflared-web 是一个 docker 镜像，它打包了 cloudflared cli 和简单的 Web UI，以便轻松启动/停止 cloudflare 隧道。 |  |维护中|
 
+
+
+## 导航
+
+| 名称 | 特性 |在线地址 | 状态|
+| --- | --- | --- |--- |
+| [CloudNav-](https://github.com/sese972010/CloudNav-) |托管在cloudflare上的轻量化导航，可以同步谷歌书签。 |  |维护中|
+
+
 ## 加速
 
 | 名称 | 特性 |在线地址 | 状态|
@@ -143,7 +152,7 @@
 | [Page-api-forwarder](https://github.com/xinjianzhanghao/page-api-forwarder) | 它可以帮助您绕过某些API上的IP限制，并且由于它通过Cloudflare，因此速度很快。 |  |维护中|
 | [AI-worker](https://github.com/qyjoy/AI-worker) | 通过Cloudflare免费、私有化访问和管理Gemini~摆脱地域限制无烦恼，完全由自己掌控。 |  |维护中|
 | [gemini-balance-do](https://github.com/zaunist/gemini-balance-do) | 基于 Cloudflare Worker 和 Durable Objects 实现的 Gemini API 中转（多key负载均衡），稳定美国 IP 访问 Gemini | https://github.com/zaunist/gemini-balance-do | 维护中 |
-
+| [GeminiProChat](https://github.com/babaohuang/GeminiProChat) | GeminiPro 的最小 Web UI。 | <https://geminiprochat.com/> | 有效中 |
 
 ## 文件分享
 
@@ -234,24 +243,14 @@
 | [subpool-worker](https://github.com/illusionlie/subpool-worker) | 轻量级订阅池服务，用于管理和分发代理订阅链接 |  | 维护中 |
 | [AWS-AccessBridge](https://github.com/Rexezuge-CloudflareWorkers/AWS-AccessBridge) | AWS 多账号管理和登录服务 |  | 维护中 |
 | [Cloudflare-Clist](https://github.com/ooyyh/Cloudflare-Clist) | 基于cloudflare worker的类alist聚合存储管理服务 | <https://down.ohyraw.qzz.io> | 维护中 |
+| [sync-your-cookie](https://github.com/jackluson/sync-your-cookie) | 用于将 cookie 和 localStorage 同步到 Cloudflare KV 或 GitHub Gist 的浏览器扩展 | <https://chromewebstore.google.com/detail/sync-your-cookie/bcegpckmgklcpcapnbigfdadedcneopf> | 有效中 |
+| [rss-to-telegram](https://github.com/calpa/rss-to-telegram) | 一项 Cloudflare Worker 服务，可自动获取 RSS feed 更新并将其发送到 Telegram 频道| <https://skymail.ink> | 维护中 |
+| [Text2img-Cloudflare-Workers](https://github.com/huarzone/Text2img-Cloudflare-Workers) | ✨ 基于 CloudFlare AI & Workers 的免费在线文生图服务 | <https://text2img.huarzone.com/> | 有效中 |
+| [wxpush](https://github.com/frankiejun/wxpush) | 一个极简且免费的微信消息推送服务| | 维护中 |
+
+
 
 ## 教程
-# These are supported funding model platforms
-
-
-github: # Replace with up to 4 GitHub Sponsors-enabled usernames e.g., [user1, user2]
-patreon: # Replace with a single Patreon username
-open_collective: # Replace with a single Open Collective username
-ko_fi: # Replace with a single Ko-fi username
-tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
-community_bridge: # Replace with a single Community Bridge project-name e.g., cloud-foundry
-liberapay: # Replace with a single Liberapay username
-issuehunt: # Replace with a single IssueHunt username
-lfx_crowdfunding: # Replace with a single LFX Crowdfunding project-name e.g., cloud-foundry
-polar: # Replace with a single Polar username
-buy_me_a_coffee: # Replace with a single Buy Me a Coffee username
-thanks_dev: # Replace with a single thanks.dev username
-custom: # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
 
 | 名称 | 特性 |在线地址 | 状态|
 | --- | --- | --- |--- |
