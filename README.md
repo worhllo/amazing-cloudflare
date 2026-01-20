@@ -73,6 +73,8 @@
 | [zmail](https://github.com/zaunist/zmail) | Z-Mail - 基于 CloudFlare 的 pages、worker 以及 D1 SQL 搭建的极简临时邮箱服务，支持接收附件。| <https://mail.mdzz.uk/> | 维护中 |
 | [cloud-mail](https://github.com/PennyJoly/FreeTempMail) | 用Vue3开发的响应式简约邮箱服务，支持邮件发送附件收发，可以部署到Cloudflare云平台。| <https://skymail.ink> | 维护中 |
 | [FreeTempMail](https://github.com/LaziestRen/cloud-mail) | FreeTempMail 是一项免费的临时电子邮件服务，允许您创建一次性电子邮件地址以保护您的隐私。无需注册，即时生成，自动接收邮件。| <https://mail.aitre.cc> | 维护中 |
+| [cloud-mail](https://github.com/maillab/cloud-mail) | 基于 Cloudflare 的邮箱服务。| <https://skymail.ink> | 维护中 |
+
 
 ## 博客
 
@@ -86,8 +88,8 @@
 | [serverless-cloud-notepad](https://github.com/s0urcelab/serverless-cloud-notepad) |基于 Cloudflare Worker 实现的Serverless Cloud Notepad 云笔记。| <https://note.src.moe/y6y> | 维护中|
 | [Rin](https://github.com/openRin/Rin/) |Rin 是一个基于 Cloudflare Pages + Workers + D1 + R2 全家桶的博客，无需服务器无需备案，只需要一个解析到 Cloudflare 的域名即可部署。| <https://docs.openrin.org/> | 维护中|
 | [cf-comment](https://github.com/joyance-professional/cf-comment) |一个基于 Cloudflare Workers 运行的简单评论系统，支持回复、点赞、举报以及管理员后台管理功能；同时提供中英双语切换，方便更广泛地使用。| <https://comment.joyance.page/area/test-4> | 维护中|
-
-
+| [discuss](https://github.com/minlearn/discuss) | 最适合自建的一键联合社区和聚合云台(可cf部署)🚀🎉。| <https://skymail.ink> | 维护中 |
+| [emaction.backend](https://github.com/emaction/emaction.backend) | 自部署 GitHub 风格的 Reactions 点赞功能。| <https://eallion.com/self-hosted-github-flavored-reactions/> | 维护中 |
 
 # 脚手架
 
@@ -111,8 +113,8 @@
 | [Sink](https://github.com/ccbikai/Sink) |ccbikai/Sink 是一个在 Cloudflare 上完全运行的简单、快速、安全的链接缩短器，具备分析功能和控制台面板.| <https://sink.cool/> | 维护中|
 | [short](https://github.com/molikai-work/short) | 基于 x-dr/short 的项目修改，新增了可以设置短链密码和管理短链、使用 Turnstile 人机验证、黑名单域名管理、跳转页面配置、多域名配置使用。 | [Demo 地址](https://c1n.top/) | 维护中 |
 | [CFWorkerUrls](https://github.com/PIKACHUIM/CFWorkerUrls) | 一个基于CF Worker的短链接跳转服务，支持Lucky STUN自动化 。 | <https://1web.us.kg/> | 维护中 |
-
-
+| [Static_Redirect_Group](https://github.com/afoim/Static_Redirect_Group) | 静态重定向组。| <https://2x.nz/s> | 维护中 |
+| [eastlake-cloudflare-worker-short-url](https://github.com/Likenttt/eastlake-cloudflare-worker-short-url) | 基于cloudflareworker的短网址系统。| <https://cf-worker-shorturl-pages-574g.vercel.app/> | 维护中 |
 
 ## 网站分析
 
@@ -137,6 +139,8 @@
 | 名称 | 特性 |在线地址 | 状态|
 | --- | --- | --- |--- |
 | [CloudNav-](https://github.com/sese972010/CloudNav-) |托管在cloudflare上的轻量化导航，可以同步谷歌书签。 |  |维护中|
+| [CF-Worker-Dir](https://github.com/sleepwood/CF-Worker-Dir) | 基于 Cloudflare Worker 的 Web 目录。。| <http://gethe.best/> | 维护中 |
+| [NavSphere](https://github.com/tianyaxiang/NavSphere) | 一个基于 Github 存储的网址导航程序支持部署至cloudflare，一键部署至 Vercel，数据存储在 Github，零成本搭建一个网站导航。| <https://nav.newkit.site/> | 维护中 |
 
 
 ## 加速
@@ -153,6 +157,10 @@
 | [AI-worker](https://github.com/qyjoy/AI-worker) | 通过Cloudflare免费、私有化访问和管理Gemini~摆脱地域限制无烦恼，完全由自己掌控。 |  |维护中|
 | [gemini-balance-do](https://github.com/zaunist/gemini-balance-do) | 基于 Cloudflare Worker 和 Durable Objects 实现的 Gemini API 中转（多key负载均衡），稳定美国 IP 访问 Gemini | https://github.com/zaunist/gemini-balance-do | 维护中 |
 | [GeminiProChat](https://github.com/babaohuang/GeminiProChat) | GeminiPro 的最小 Web UI。 | <https://geminiprochat.com/> | 有效中 |
+| [Cloudflare-Accel](https://github.com/fscarmen2/Cloudflare-Accel) | 基于 Cloudflare Workers 的 GitHub 和 Docker 加速服务，自动生成加速链接与命令。| 维护中 |
+
+
+
 
 ## 文件分享
 
@@ -165,7 +173,8 @@
 | [CloudPaste](https://github.com/ling-drag0n/CloudPaste) |基于Cloudflare的在线文本/大文件分享平台，支持多种语法 Markdown 渲染、阅后即焚、S3/WebDav/TG/OneDrive等多存储聚合、密码保护等功能，可作为WebDav挂载，支持Docker部署。| <https://doc.cloudpaste.qzz.io/>  |维护中|
 | [cf-drop](https://github.com/lyonbot/cf-drop) |一个「文件传输助手」，运行在 Cloudflare Worker + R2 + D1。具备PWA移动端优化、支持多线程文件下载、访问密码、打包下载tarball 等功能。界面简单易用，可放到浏览器侧栏，或者添加到手机桌面上快速使用。|   |维护中|
 | [serverless-webdav](https://github.com/jiacai2050/my-works/blob/main/serverless-webdav/README.zh-CN.md) | 基于 Cloudflare Workers 和 Cloudflare D1 数据库 构建的轻量级、可扩展的 WebDAV 服务器实现。 |   |维护中|
-
+| [FlareDrive](https://github.com/longern/FlareDrive) | 使用 CloudFlare R2 的免费文件托管服务（WebUI 和 WebDAV）。| <https://drive.longern.com/> | 维护中 |
+| [onedrive-index](https://github.com/iRedScarf/onedrive-index) | OneDrive 公共目录列表和一键部署到 Vercel。由 Vercel 和 Next.js 提供支持。| 维护中 |
 
 
 ## 测速
@@ -246,8 +255,16 @@
 | [sync-your-cookie](https://github.com/jackluson/sync-your-cookie) | 用于将 cookie 和 localStorage 同步到 Cloudflare KV 或 GitHub Gist 的浏览器扩展 | <https://chromewebstore.google.com/detail/sync-your-cookie/bcegpckmgklcpcapnbigfdadedcneopf> | 有效中 |
 | [rss-to-telegram](https://github.com/calpa/rss-to-telegram) | 一项 Cloudflare Worker 服务，可自动获取 RSS feed 更新并将其发送到 Telegram 频道| <https://skymail.ink> | 维护中 |
 | [Text2img-Cloudflare-Workers](https://github.com/huarzone/Text2img-Cloudflare-Workers) | ✨ 基于 CloudFlare AI & Workers 的免费在线文生图服务 | <https://text2img.huarzone.com/> | 有效中 |
-| [wxpush](https://github.com/frankiejun/wxpush) | 一个极简且免费的微信消息推送服务| | 维护中 |
-
+| [wxpush](https://github.com/anghunk/cwd-comments) | 一个极简且免费的微信消息推送服务| | 维护中 |
+| [cwd-comments](https://github.com/LaziestRen/cloud-mail) | Cloudflare Worker 版本基于 Cloudflare Workers + D1 + KV 实现，无需服务器即可部署运行的评论组件。| <https://cwd-comments-docs.zishu.me/> | 维护中 |
+| [Domains-Support](https://github.com/frankiejun/Domains-Support) | 一个基于 Cloudflare Pages 的域名管理系统，帮助您轻松管理和监控多个域名的状态、到期时间等信息。| 维护中 |
+| [wxpushSkin](https://github.com/frankiejun/wxpushSkin) | 这是一个配合 WxPush 项目使用的消息推送皮肤项目| <维护中 |
+| [NodeCrypt](https://github.com/shuaiplus/NodeCrypt) | 🔒True end-to-end encrypted (E2EE) chat system in web. 🔒真正的网页端到端加密聊天系统| <https://nodecrypt.shuaiplus.workers.dev/> | 维护中 |
+| [Mini-Cover](https://github.com/JLinMr/Mini-Cover) | Mini-Cover：简洁的在线生成封面网站，专为博客、短视频、社交媒体等生成个性化封面。| <https://cover.ruom.top/> | 维护中 |
+| [warden-worker](https://github.com/qaz741wsd856/warden-worker) | 适用于 Cloudflare Workers 的 Bitwarden 兼容服务器。| <http://warden.qqnt.de/> | 维护中 |
+| [Cerebr](https://github.com/yym68686/Cerebr) | 通过AI与网页内容对话。| <https://cerebr.yym68686.top/> | 维护中 |
+| [movecar](https://github.com/lesnolie/movecar) | 🚗 智能挪车通知系统 - 基于 Cloudflare Workers，支持实时位置共享和多推送服务。| <https://htmlpreview.github.io/?https://github.com/lesnolie/movecar/blob/main/preview-requester.html> | 维护中 |
+| [PayQrcode](https://github.com/uxiaohan/PayQrcode) | 最新物理合并微信收款码和支付宝收款码为聚合二维码👍。| <https://pay-qrcode.4ce.cn/> | 维护中 |
 
 
 ## 教程
